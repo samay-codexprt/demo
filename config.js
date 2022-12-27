@@ -1,8 +1,8 @@
 module.exports.READ_MAIL_CONFIG = {
   imap: {
-    user: process.env.EMAIL,
-    password: process.env.PASSWORD,
-    host: 'imap.gmail.com',
+    user: "codexprt4@gmail.com",
+    password: "qhlpiihkhjonvgoo",
+    host: "imap.gmail.com",
     port: 993,
     authTimeout: 10000,
     tls: true,
@@ -11,9 +11,9 @@ module.exports.READ_MAIL_CONFIG = {
 };
 
 module.exports.SEND_MAIL_CONFIG = {
-  service: 'gmail',
+  service: "gmail",
   auth: {
-    user: process.env.EMAIL,
-    pass: process.env.PASSWORD,
+    user: "codexprt4@gmail.com",
+    pass: "qhlpiihkhjonvgoo",
   },
 };
